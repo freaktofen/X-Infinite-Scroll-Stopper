@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>X Scroll Stopper</title>
+  <style>
+    body { font-family: Arial; width:220px; padding:10px; background:#111; color:#fff; }
+    h3 { text-align:center; margin-bottom:8px; }
+    .status { text-align:center; font-weight:bold; margin-bottom:10px; }
+    button { width:100%; padding:8px; margin-top:6px; border:none; cursor:pointer; }
+    .on { background:#1da1f2; }
+    .off { background:#e0245e; }
+    label { font-size:12px; display:flex; align-items:center; margin-top:8px; }
+    label input { margin-right:6px; }
+    .credit { text-align:center; font-size:10px; opacity:.6; margin-top:8px; }
+  </style>
+</head>
+<body>
+  <h3>X Scroll Stopper</h3>
+  <div id="status" class="status"></div>
+  <button id="toggle"></button>
+  <button id="reload">↻ Reload X tab</button>
+  <label><input type="checkbox" id="auto">Enable automatically</label>
+  <div class="credit">© freaktofen · AGPL-3.0</div>
+  <script src="popup.js"></script>
+</body>
+</html>
