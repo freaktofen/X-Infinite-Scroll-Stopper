@@ -14,20 +14,9 @@ helping reduce distraction and endless scrolling.
 - Clear status indicator
 - Optional automatic activation on browser startup
 - Reload button for open X tabs
-- No tracking
-- No analytics
-- No data collection
 - Minimal and lightweight
 
----
 
-## How it works
-
-When enabled, the extension blocks specific background requests
-used by X to fetch more content while scrolling.
-
-Already loaded posts remain visible.
-Only new content loading is stopped.
 
 ---
 
@@ -43,18 +32,7 @@ If you notice new posts still appearing:
 2. Press **Reload X tab** from the extension
 3. Scrolling will stop normally
 
----
 
-## Permissions explained
-
-- `declarativeNetRequest`  
-  Used only to block background loading requests.
-
-- `storage`  
-  Saves your preferences locally (on/off, auto-enable).
-
-- `tabs`  
-  Used only to reload open X tabs when requested.
 
 ---
 
@@ -115,3 +93,4 @@ All settings remain local to the user's browser.
 
 This software is provided as-is.  
 Users are responsible for ensuring compliance with applicable platform terms and local regulations.
+
